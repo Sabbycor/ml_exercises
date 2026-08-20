@@ -1,8 +1,28 @@
+# Ambiente virtuale
 venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Cache Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Jupyter runtime e kernel
+.jupyter/
+profile_default/
+ipython_config.py
+
+# File di configurazione locale
 .env
 .vscode/
-*.egg-info/
-dist/
-build/
+.idea/
+
+# File di sistema
+.DS_Store
+Thumbs.db
